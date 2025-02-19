@@ -1,26 +1,24 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
-
+theme: jekyll-theme-minimal
 title: Diário de Bordo - UDF Computação
-description: Acompanhamento diário das aulas do curso de Computação Noturno
-show_downloads: false
+description: Acompanhamento das aulas de Computação
+baseurl: "/udf-computacao-noturno-diario"
+url: "https://lucasdoreac.github.io"
 
-# Navigation
-nav_links:
-  - title: Início
-    url: /
-  - title: Cálculo
-    url: /disciplinas/calculo
-  - title: Sistemas
-    url: /disciplinas/sistemas
-  - title: Banco de Dados
-    url: /disciplinas/banco
+# Configurações do site
+lang: pt-BR
+encoding: UTF-8
 
-# Theme customization
-colors:
-  header: "#159957"
-  gradient_left: "#155799"
-  gradient_right: "#159957"
-  link: "#1e6bb8"
-  section_headings: "#159957"
+# Configurações de build
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Navegação
+header_pages:
+  - index.md
+  - disciplinas/calculo.md
+  - disciplinas/sistemas.md
+  - disciplinas/banco.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
