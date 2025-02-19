@@ -1,0 +1,26 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Diário de Bordo - UDF Computação
+description: Acompanhamento diário das aulas do curso de Computação Noturno
+show_downloads: false
+
+# Navigation
+nav_links:
+  - title: Início
+    url: /
+  - title: Cálculo
+    url: /disciplinas/calculo
+  - title: Sistemas
+    url: /disciplinas/sistemas
+  - title: Banco de Dados
+    url: /disciplinas/banco
+
+# Theme customization
+colors:
+  header: "#159957"
+  gradient_left: "#155799"
+  gradient_right: "#159957"
+  link: "#1e6bb8"
+  section_headings: "#159957"
